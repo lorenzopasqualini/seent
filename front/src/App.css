@@ -1,0 +1,98 @@
+body {
+	scroll-behavior: smooth;
+	margin: 0px;
+}
+
+::-webkit-scrollbar {
+	width: 0; /* Remove scrollbar space */
+	background: transparent; /* Optional: just make scrollbar invisible */
+}
+
+.background {
+	width: 100vw;
+	height: 100vh;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.form-card {
+	width: 50%;
+	max-width: 350px;
+	padding: 0% 25% 0% 25%;
+}
+
+.form-title {
+	font-size: 26px;
+	font-family: 'Courier';
+	font-weight: 900;
+	letter-spacing: 0.5px;
+	color: white;
+	padding-bottom: 12px;
+}
+
+.form-subtitle {
+	font-size: 18px;
+	color: white;
+	font-style: italic;
+	font-family: 'Courier';
+	letter-spacing: 0.5px;
+	padding-bottom: 24px;
+}
+
+.auth {
+	position: relative;
+	display: inline-block;
+	width: 100%;
+	padding-bottom: 12px;
+}
+.auth-background {
+	width: 100vw;
+	height: 100vh;
+	background: linear-gradient(75deg, #4facd6 0%, #1ae49b 100%);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.auth-label {
+	position: absolute;
+	top: 8px;
+	left: 18px;
+	font-size: 11px;
+	color: rgb(175, 175, 175);
+	font-family: Courier;
+	width: 100px;
+}
+.auth-input {
+	background-color: #3e404b;
+	color: white;
+	font-family: 'Courier';
+	outline: none;
+	border: none;
+	border-radius: 8px;
+	padding: 24px 18px 12px 18px;
+	width: calc(100% - 18px - 18px);
+	margin-bottom: 12px;
+}
+.auth-button {
+	width: 100%;
+	height: 53px;
+	background-color: #46b4cc;
+	border: none;
+	outline: none;
+	border-radius: 8px;
+	color: white;
+	font-family: 'Courier';
+	cursor: pointer;
+	transition: all 0.44s ease;
+	-webkit-transition: all 0.44s ease;
+	-moz-transition: all 0.44s ease;
+}
+.auth-button:hover {
+	filter: brightness(90%);
+}
+
+.chat-wrapper {
+	height: 80vh;
+	width: 80vw;
+	color: white;
+}
